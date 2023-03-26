@@ -81,7 +81,7 @@ nav ul li a:hover::after{
 
 .container{
     padding: 15px 10%;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
     
 }
 
@@ -169,16 +169,19 @@ nav ul li a:hover::after{
 /*--------footer-------*/
 
 #footer-container{
-    background: white;
-    padding: 80px;
+    background: rgb(42, 42, 44);
+    padding: 30px 100px 80px 100px;
+    margin-top: 40px;
+    
+    
+    
 }
 
 
 .footer-col-1{
     width: 450px;
     float: left;
-    margin: 10px;
-    color: black;
+    color: white;
     font-size: 18px;
     text-align: left;
 }
@@ -187,12 +190,12 @@ nav ul li a:hover::after{
     width: 450px;
     float: right;
     text-align: right;
-    margin: 10px;
+    
     font-size: 18px;
-    color: black;
+    color: white;
 }
 
 .footer-col-2 a{
-    color: black;
+    color: white;
 }
 
