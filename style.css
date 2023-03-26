@@ -172,9 +172,6 @@ nav ul li a:hover::after{
     background: rgb(42, 42, 44);
     padding: 30px 100px 80px 100px;
     margin-top: 40px;
-    
-    
-    
 }
 
 
@@ -190,7 +187,6 @@ nav ul li a:hover::after{
     width: 450px;
     float: right;
     text-align: right;
-    
     font-size: 18px;
     color: white;
 }
