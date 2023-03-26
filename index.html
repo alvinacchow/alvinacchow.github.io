@@ -1,32 +1,114 @@
-<html>
-    <head>
-        <title>Alvina's Website</title>
-        <meta charset = "utf-8">
-        <link rel="stylesheet" href="style.css">
-        
-    </head>
-
-    <body>
-        <h1>Alvina Chow</h1>
-        <img src = "images/pfp.JPG" alt = "Picutre of Alvina Chow" id ="profile_pic">
-        <div>
-            <p>This is my website!</p>
-            <a href = "https://google.com" target = "_blank">
-                Google's Website
-            </a>
-            
-            <h2>Alvina's Favorite Foods!</h2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-witdth, initial-scale=1.0">
+    <title>Alvina's Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
             <ul>
-                <li>Hand-pulled noodles</li>
-                <li>Matcha lattes</li>
-                <li>Gummy candies</li>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#footer-container">Contact</a></li>
             </ul>
+        </nav>
+    
+        <div class="header-text">
+            <h1>Hi, I'm <span><br>Alvina Chow</br></span></h1>
         </div>
-        <a href = "https://github.com/alvinacchow">
-            <img src = "images/github.png" class="social_icon">
-        </a>
+    </div>
+</div>
 
+<div id="about">
+    <div class="container">
+        <h2>About Me</h2>
+        <br>
+        <p>Hi! My name is Alvina Chow, and I am a first-year undergraduate student
+            at the University of California, Irvine. I study software engineering
+            with a minor in Innovation and Entrepreneurship as I aspire to become
+            a product manager in the tech industry. I hope to envision, innovate,
+            and implement products that are capable of easing our daily lives. I
+            can't wait to see what the future holds!
+        </p>
+    </div>
+
+    <div class="why">
+        <h2>Why Product Management?</h2>
+        <br>
+        <p>I am interested in product management because it combines my two loves: 
+            business and technology. I discovered my love of computer science and
+            software engineering in high school as I loved creating fun programs
+            for my computer science classes. I have always been an entrepreneurial 
+            person, hoping to one day sell my baked goods and other food creations
+            at the local farmers market. Product management offers me an opportunity
+            where I can dive into my two passions of tech and business together as I drive my 
+            team to create life-changing products. 
+            <br>
+            <br>
+            People use tons of products every day without realizing it. For example,
+            people wake up daily using the alarm on their Clock app but haven't stopped
+            to consider the development of such a product. What fascinates me most about 
+            product development is that it was a complicated process to create this software, 
+            traveling through a long product cycle through a network of interdependent 
+            teams. In the end, users are able to fully integrate the tech and make
+            full use of my creations. I am passionate about Product Management because
+            I want to partake in and pioneer ideation to eventually build software that
+            truly transforms one's life. My team and I can bear the challenges
+            users face in life by creating software solutions that will allow them to
+            forget the minor difficulties they once had. 
+        </p>
+    </div>
+</div>
+
+<div id="experience-main">
+    <div class="experience">
+        <h2>Experience</h2>
+        <br>
+        <button class="button" onclick="window.open('https://drive.google.com/file/d/1ifIgwFnptJr8VnvzZ4bbhEZImdhW4jnY/view?usp=share_link', '_blank')">Resume</button>
         
-    </body>
-</html>
+        <div class="internship">
+            <h4>Internship</h4>
+                <br>
+                <p>Summer 2022:</p>
+                <li>Coordination Intern @ Prifina</li>
+        </div>
 
+        <div class="coursework">
+            <h4>Relevant Coursework</h4>
+                <li>ICS 6B: Boolean Logic and Discrete Structures</li>
+                <li>ICS 32A: Python Programming and Libraries (Accelerated)</li>
+                <li>ICS 33: Intermediate Programming</li>
+            <br>
+            <p>Spring 2023:</p>
+                <li>ICS 45C: Programming in C/C++ as a Second Language</li>
+                <li>ICS 6D: Discrete Mathematics for Computer Science</li>
+        </div>
+    </div>
+
+
+</div>
+
+<div id="footer-container">
+    <div class="footer">
+        <div class="footer-col-1">
+            <p>Thank you for stopping by! Feel free to contact me through any of the listed socials.</p>
+        </div>
+
+        <div class="footer-col-2">
+            <a href="https://github.com/alvinacchow" style="text-decoration: none;">Github</a> / 
+            <a href="https://www.linkedin.com/in/alvinachow" style="text-decoration: none;">LinkedIn</a> /
+            <a href="mailto: chowac@uci.edu" style="text-decoration: none;">Email</a> / 
+            <a href="https://drive.google.com/file/d/1ifIgwFnptJr8VnvzZ4bbhEZImdhW4jnY/view?usp=share_link" style="text-decoration: none;">Resume</a>
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>

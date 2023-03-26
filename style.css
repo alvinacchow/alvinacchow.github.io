@@ -1,20 +1,198 @@
-h1 {
-    font-size: 5em;
-    color: rgb(24, 21, 117);
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Optima', sans-serif;
+    box-sizing: border-box;
+    
 }
 
-#profile_pic {
-    height: 200px
+body{
+    background: white;
+    color: #000000;
 }
 
-.social_icon{
-    height: 50px
+#header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/background.png);
+    background-size: cover;
+    background-position: center;
 }
 
-div {
-    background-color: white
+.container{
+    padding: 10px 10%;
 }
 
-body {
-    background-color: rgb(170, 222, 227);
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
+
+.logo{
+    width: 100px;
+
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: black;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+
+nav ul li a:hover::after{
+    width: 100%;
+}
+.header-text{
+    margin-top: 15%;
+    font-size: 30px;
+}
+.header-text h1{
+    font-size: 80px;
+    margin-top: 20px;
+}
+.header-text h1 span{
+    color: #000;
+}
+
+/*---------about---------*/
+
+#about{
+    background: white;
+}
+
+
+.container{
+    padding: 15px 10%;
+    margin-bottom: 50px;
+    
+}
+
+.container h2{
+    color: black;
+    text-decoration: none;
+    font-size: 40px;
+    position: relative;
+}
+
+.container p{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+
+.why{
+    padding: 15px 10%;
+    margin-bottom: 50px;
+    
+}
+
+.why h2{
+    color: black;
+    text-decoration: none;
+    font-size: 40px;
+    position: relative;
+}
+
+.why p{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+
+/*-----experience------*/
+#experience-main{
+    background: white;
+}
+
+
+.experience{
+    padding: 15px 10%;
+    
+}
+
+.button{
+    border-color: black;
+    background-color: white;
+    padding: 10px 30px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.experience h2{
+    color: black;
+    text-decoration: none;
+    font-size: 40px;
+    position: relative;
+}
+
+.experience h4{
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    position: relative;
+    margin-top: 20px;
+}
+
+.experience p{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+    
+}
+
+
+/*--------footer-------*/
+
+#footer-container{
+    background: white;
+    padding: 80px;
+}
+
+
+.footer-col-1{
+    width: 450px;
+    float: left;
+    margin: 10px;
+    color: black;
+    font-size: 18px;
+    text-align: left;
+}
+
+.footer-col-2{
+    width: 450px;
+    float: right;
+    text-align: right;
+    margin: 10px;
+    font-size: 18px;
+    color: black;
+}
+
+.footer-col-2 a{
+    color: black;
+}
+
