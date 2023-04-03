@@ -6,9 +6,15 @@
     
 }
 
+html, body {
+    overflow-x: hidden;
+}
+
+
 body{
     background: white;
     color: #000000;
+    position: relative;
 }
 
 #header{
@@ -177,6 +183,7 @@ nav ul li a:hover::after{
 
 .footer-col-1{
     width: 450px;
+    inline-size: 375px;
     float: left;
     color: white;
     font-size: 18px;
@@ -195,3 +202,57 @@ nav ul li a:hover::after{
     color: white;
 }
 
+/*--------css for small screens-----------*/
+
+@media only screen and (max-width: 900px){
+    #header{
+        background-image: url(images/phone.png)
+    }
+
+    .header-text{
+        margin-top: 100%;
+        font-size: 20px;
+    }
+
+    .header-text h1{
+        font-size: 40px;
+        margin-top: 450px;
+    }
+
+    #about h2{
+        font-size: 30px;
+    }
+
+    #about .container{
+        margin-top: 100px;
+    }
+
+    #experience-main h2{
+        font-size: 30px;
+    }
+
+    #internship h4{
+        font-size: 20px;
+    }
+
+    #coursework h4{
+        font-size: 20px;
+    }
+
+    #footer-container{
+        padding-left: 20px;
+    }
+
+    #footer-container .footer-col-1{
+        font-size: 15px;
+    }
+
+    #footer-container .footer-col-2{
+        
+        font-size: 15px;
+        float: left;
+        text-align: left;
+        padding-top: 15px;
+    }
+
+}
