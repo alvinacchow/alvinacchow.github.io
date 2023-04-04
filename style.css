@@ -177,8 +177,9 @@ nav ul li a:hover::after{
 
 #footer-container{
     background: rgb(42, 42, 44);
-    padding: 30px 100px 80px 100px;
+    padding: 30px 100px 100px 100px;
     margin-top: 40px;
+    
 }
 
 
@@ -205,57 +206,7 @@ nav ul li a:hover::after{
 
 /*--------css for small screens-----------*/
 
-@media only screen and (max-width: 380px){
-    #header{
-        background-image: url(images/phone.png);
-        margin-top: 0px;
-    }
-
-    .header-text h1{
-        font-size: 50px;
-        margin-top: 450px;
-        
-    }
-
-    #about h2{
-        font-size: 30px;
-    }
-
-    #about .container{
-        margin-top: 100px;
-    }
-
-    #experience-main h2{
-        font-size: 30px;
-    }
-
-    #internship h4{
-        font-size: 20px;
-    }
-
-    #coursework h4{
-        font-size: 20px;
-    }
-
-    #footer-container{
-        padding-left: 20px;
-    }
-
-    #footer-container .footer-col-1{
-        font-size: 15px;
-    }
-
-    #footer-container .footer-col-2{
-        
-        font-size: 15px;
-        float: left;
-        text-align: left;
-        padding-top: 15px;
-    }
-
-}
-
-@media only screen and (min-width: 381px){
+@media only screen and (max-device-width: 500px){
     #header{
         background-image: url(images/phone.png);
         margin-top: 0px;
@@ -264,7 +215,6 @@ nav ul li a:hover::after{
     .header-text h1{
         font-size: 50px;
         margin-top: 175%;
-        
     }
 
     #about h2{
@@ -272,7 +222,7 @@ nav ul li a:hover::after{
     }
 
     #about .container{
-        margin-top: 100px;
+        margin-top: 50%;
     }
 
     #experience-main h2{
@@ -296,7 +246,6 @@ nav ul li a:hover::after{
     }
 
     #footer-container .footer-col-2{
-        
         font-size: 15px;
         float: left;
         text-align: left;
